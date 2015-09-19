@@ -45,6 +45,7 @@ public class LoginActivity extends AppCompatActivity {
             SharedPreferences pref = getSharedPreferences(Common.PREF_NAME, MODE_PRIVATE);
             SharedPreferences.Editor editor = pref.edit();
             editor.putString(Common.PREF_TOKEN, userResponse.getToken());
+            editor.putString(Common.PREF_USERNAME, userResponse.getUsername());
             editor.apply();
 
             // Close the login activity

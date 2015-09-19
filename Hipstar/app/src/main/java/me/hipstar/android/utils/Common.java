@@ -12,6 +12,7 @@ public class Common {
     // Shared preferences
     public static final String PREF_NAME = "me.hipstar.android";
     public static final String PREF_TOKEN = "token";
+    public static final String PREF_USERNAME = "username";
 
     /**
      * Get a generally unique device ID for this user and device.
@@ -60,6 +61,17 @@ public class Common {
     public static String getToken(Context context) {
         SharedPreferences prefs = context.getSharedPreferences(Common.PREF_NAME, Context.MODE_PRIVATE);
         return prefs.getString(Common.PREF_TOKEN, null);
+    }
+
+
+    /**
+     * Get the user's username if they are logged in
+     * @param context   Application context
+     * @return  The user's username. Null if the user is not logged in.g
+     */
+    public static String getUsername(Context context) {
+        SharedPreferences prefs = context.getSharedPreferences(Common.PREF_NAME, Context.MODE_PRIVATE);
+        return prefs.getString(Common.PREF_USERNAME, null);
     }
 
 
