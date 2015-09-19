@@ -1,6 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <!--- ***************************************
+          **  BACKGROUND COLOURS: LIGHT THEME  **
+          *************************************** -->
+
+    <!--- Status bar -->
+    <color name="grey_300">#E0E0E0</color>
+
+    <!--- App/action/tool bar -->
+    <color name="grey_100">#F5F5F5</color>
+
+    <!--- Background -->
+    <color name="grey_50">#FAFAFA</color>
+
+    <!--- Cards and dialogs -->
+    <color name="white">#FFFFFF</color>
+
+
+    <!--- ***************************************
+          *******  PRIMARY COLOURS: BLUE  *******
+          *************************************** -->
+
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryLight">#C8E6C9</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+
+
+    <!--- ***************************************
+          *******  ACCENT COLOURS: AMBER  *******
+          *************************************** -->
+
+    <color name="colorAccent">#F50057</color>
+    <color name="colorAccentLight">#FF4081</color>
+    <color name="colorAccentDark">#C51162</color>
+
+
+    <!--- ***************************************
+          ********  TEXT COLOURS: BLACK  ********
+          *************************************** -->
+
+    <color name="black">#000000</color>
+
 </resources>
